@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#485563"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/lbl_saldo"
+        android:layout_width="257dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="187dp"
+        android:text="@string/lbl_saldo"
+        android:textAlignment="center"
+        android:textColor="@color/colorSaldo"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_saldo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_hello_user"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txt_hello_user"
+        android:layout_width="315dp"
+        android:layout_height="126dp"
+        android:text="@string/bem_vinda"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <TextView
+        android:id="@+id/txt_ctt"
+        android:layout_width="284dp"
+        android:layout_height="69dp"
+        android:text="@string/ctt"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/btn_contatos"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_contatos"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/txt_saldo"
+        android:layout_width="174dp"
+        android:layout_height="49dp"
+        android:text="11.587,98"
+        android:textAlignment="center"
+        android:textColor="@color/colorSaldo"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="50dp"
+        android:text="Rich Girls"
+        android:textAlignment="center"
+        android:textColor="@color/colorSaldo"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_hello_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

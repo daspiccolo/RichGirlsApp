@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Rich Girls</string>
+    <string name="btn_transferencia">Transferir</string>
+    <string name="lbl_saldo">Seu saldo atual é: </string>
+    <string name="btn_contatos">Contatos</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="txt_hello_user">Olá Usuári@!</string>
+    <string name="textView">Rich Girls</string>
+    <string name="label_lista_contatos">Lista de Contatos</string>
+    <string name="label_transferir">Transferência</string>
+
+    <string name="login">Login:</string>
+    <string name="senha">Senha:</string>
+    <string name="acessar">Acessar</string>
+    <string name="agencia_conta">AG: %1$s \t CC: %2$s</string>
+    <string name="contatos">contatos</string>
+    <string name="bem_vinda">Bem vinda ao app de transferências entre amigos</string>
+    <string name="ctt">Escolha para quem você deseja transferir agora: </string>
+    <string name="tela_inicial">Rich Girls</string>
+    <string name="descricao"> O app de transferências entre amigos</string>
+    <string name="confirmar">confirmar</string>
+    <string name="valor">valor da transferência</string>
+    <string name="nome">nome:\t %1$s</string>
+    <string name="valor_com_label">valor transferência: R$ %1$.2f</string>
+    <string name="data_transferencia">transferência realizada em: %1$s</string>
+    <string name="comprovante_label">comprovante: %1$s</string>
+
+</resources>

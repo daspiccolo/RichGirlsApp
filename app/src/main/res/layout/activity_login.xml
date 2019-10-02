@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#485563"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/lbl_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"/>
+
+       <TextView
+        android:id="@+id/lbl_login"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/edt_login"
+        android:textColor="#FFFFFF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/lbl_senha"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/senha"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:textColor="#FFFFFF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_acessar"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/acessar"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
